@@ -3,7 +3,7 @@ name: Keep Render App Alive
 # Schedule the workflow every 14 minutes
 on:
   schedule:
-    - cron: '*/14 * * * *'  # every 14 minutes
+    - cron: '*/10 * * * *'  # every 14 minutes
   workflow_dispatch:         # allows manual trigger too
 
 jobs:
